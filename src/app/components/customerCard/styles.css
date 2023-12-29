@@ -1,0 +1,44 @@
+.cardContainer {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    font-size: 12px
+}
+
+.customerImg {
+    width: 4rem
+}
+
+.txtName {
+    color: #57BC90;
+    text-decoration: underline;
+}
+
+.btnRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#btnDlt{
+    margin-left: 5px;
+  }
+
+
+
+
+@media screen and (max-width: 600px) {
+    .btnRow {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #btnDlt{
+      margin-top: 5px;
+    }
+}
